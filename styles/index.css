@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__logo img {
+    width: 120px;
+}
+
+.header__logo .header__name h3 {
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: #d8b26e;
+}
+
+.header__logo .header__name h3 span {
+    font-size: 70px;
+}
+
+header .header__sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__sign ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.header__sign ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
